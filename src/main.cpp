@@ -56,11 +56,11 @@ void loop() {
 
   buffer.setCursor(0, 17);
   buffer.setTextColor(BLUE);
-  buffer.printf("    %.1f C\n", teplota);
+  buffer.printf("    %.1f deg C\n", teplota);
   buffer.printf("    %.1f hPa\n", tlak);
 
   buffer.setTextColor(VIOLET);
-  buffer.printf("    %.1f C\n", teplota2);
+  buffer.printf("    %.1f deg C\n", teplota2);
   buffer.printf("    %.1f %%\n", vlhkost2);
 
   buffer.pushSprite(0, 0);
